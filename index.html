@@ -8,6 +8,13 @@
 </head>
 <body tabindex="-1">
   <!-- obere Leiste -->
+  <div id="project-controls">
+    <div id="current-project-name" class="project-name-display">Projektname</div>
+    <button id="create-project">Neues Projekt</button>
+    <button id="manage-projects">Projekte verwalten</button>
+  </div>
+  
+  
   <div id="top-bar">
     <div id="links">
       <!-- gespeicherte Zeitmarken -->
@@ -28,5 +35,17 @@
   </div>
 
   <script src="renderer.js"></script>
+  
+  <div id="project-dialog" class="dialog-overlay">
+    <div class="dialog-box">
+      <h3>Neues Projekt erstellen</h3>
+      <input type="text" id="project-name-input" placeholder="Projektname">
+      <div class="dialog-buttons">
+        <button id="cancel-create">Abbrechen</button>
+        <button id="confirm-create">Erstellen</button>
+      </div>
+    </div>
+  </div>
+  
 </body>
 </html>

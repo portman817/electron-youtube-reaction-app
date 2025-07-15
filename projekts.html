@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Projekte</title>
+  <link rel="stylesheet" href="projekts_style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Meine Projekte</h1>
+
+    <div class="grid" id="project-grid">
+      <!-- Projektkarten werden hier dynamisch eingefügt -->
+    </div>
+
+    <div class="buttons">
+      <button id="create-project">➕ Neues Projekt erstellen</button>
+    </div>
+  </div>
+
+  <script src="projekts.js"></script>
+
+  <div id="project-dialog" class="dialog-overlay">
+    <div class="dialog-box">
+      <h3>Neues Projekt erstellen</h3>
+      <input type="text" id="project-name-input" placeholder="Projektname">
+      <div class="dialog-buttons">
+        <button id="cancel-create">Abbrechen</button>
+        <button id="confirm-create">Erstellen</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
