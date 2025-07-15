@@ -33,7 +33,7 @@ async function initializeProject() {
   if (currentProject) {
     const nameElem = document.getElementById('current-project-name');
     if (nameElem) {
-      nameElem.textContent = `📁 ${currentProject.name}`;
+      nameElem.textContent = `${currentProject.name}`;
     }
   }
 
