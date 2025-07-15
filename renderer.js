@@ -147,7 +147,7 @@ function saveCurrentProject() {
         events: {
           onReady: () => {
             ytPlayerReady = true;
-            console.log('✅ ytPlayer bereit');
+            console.log('ytPlayer bereit');
             document.body.focus();
           },
           onStateChange: (event) => {
