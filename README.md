@@ -1,58 +1,25 @@
-Dies ist mein Abschlussprojekt für die Umschulung zum Fachinformatiker für Anwendungsentwicklung
- 
- Funktionen:
- ----------
-YouTube-Videos laden durch Einfügen eines Links
+# YouTube Reaction App
 
-Hotkey-Bookmarks (1–9):
+Desktop application built with Electron, Node.js and SQLite.
 
-SHIFT + [1–9] speichert die aktuelle Position als Bookmark
+## Features
+- Play YouTube videos inside the app
+- Create bookmarks using hotkeys (1–9)
+- Save timestamps per video
+- Project-based organization
+- Notes for each project
+- Persistent data using SQLite
 
-[1–9] springt zum gespeicherten Zeitpunkt
+## Tech Stack
+- Electron
+- JavaScript (Vanilla)
+- SQLite
+- HTML / CSS
 
-Individuelle Löschbuttons für jedes Bookmark
+## Description
+This project was developed as part of my Abschlussprojekt during my training as a Fachinformatiker für Anwendungsentwicklung.
 
-Notizfeld für Kommentare, Gedanken oder Zusammenfassungen – global für alle Bookmarks
+The goal of the application is to simplify working with YouTube reaction videos by allowing quick navigation between important timestamps and organizing them into projects.
 
-Video-Autoladen bei Bookmark-Wechsel
-
-Lokale SQLite-Datenbank zur persistenten Speicherung
-
----------------------------------------------------
-
-Technologien:
---
-Electron
-
-SQLite (better-sqlite3)
-
-YouTube IFrame API
-
-Installation:
---
-Repository klonen:
-
-    git clone https://github.com/portman817/Abschlussprojeckt_Youtube-reaction-videos_app.git
-    cd Reactionapp
-
-Abhängigkeiten installieren:
---
-    
-    npm install
-    npm install electron --save-dev
-    npm install sqlite3 --save
-
-App starten:
---
-
-    npm start
-
-
-
-
-
-
-
-
-
-
+## Status
+Work in progress
